@@ -1,0 +1,102 @@
+.bigbody{
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.bigbodywrapper{
+    width: 88%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cartdiv{
+   width: 20%;
+   height: 90%;
+   background-color: white;
+   border-radius: 10px; 
+   display: flex;
+   align-items: center;
+}
+.text{
+    width: 90%;
+    height: 90%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 15px;
+}
+.text h2{
+    font-family: "raleway";
+    font-weight: 600;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+.carouselHolder{
+    width: 60%;
+    height: 90%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    /* align-items: center; */
+}
+
+.left, .right{
+    width: 5%;
+    height: 100%;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    background-color: black;
+    cursor: pointer;
+    
+}
+ .right :hover{
+   color: grey;
+}
+ .left :hover{
+   color: grey;
+}
+
+.left img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+.gif{
+    width: 20%;
+    height: 90%;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.gifup{
+ width: 100%;
+ height: 50%;
+ background-color: red;
+ /* display: flex; */
+ border-radius: 10px;
+ 
+}
+.gifup img{
+    width: 100%;
+    height: 100%;
+}
+.gifbum{
+ width: 100%;
+ height: 50%;
+ background-color: brown;
+ border-radius: 10px;
+}
+.gifbum img{
+    width: 100%;
+    height: 100%;
+}

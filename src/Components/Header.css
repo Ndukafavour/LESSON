@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Header1{
+    width: 100%;
+    height: 270px;
+    background-color: black;
+}
+.Topheader{
+    width: 100%;
+    height: 35%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Topheaderwrapper{
+    width: 85%;
+    height: 100%;
+    background-color: white;
+    object-fit: inherit;
+}
+.Topheaderwrapper img{
+    width: 100%;
+    height: 100%;
+}
+.smallHeader{
+    width: 100%;
+    height: 20%;
+    background-color: #F1F1F2;
+}
+.smallheadwrap{
+    width: 60%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+   
+}
+.leftsmall{
+    width: 40%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.rightsmall{
+    width: 60%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.image{
+  width: 23%;
+  height: 100%;
+  /* background-color: greenyellow;  */
+   
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.star{
+    width: 5%;
+    height: 60%;
+    object-fit: contain;
+    /* padding: 2px; */
+    /* background-color: lightcoral; */
+}
+.star img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.leftsmall p{
+    color: #F68B1E;
+    font-family: "raleway";
+    font-weight: 550;
+    font-size: 15px;
+}
+.Bumheader{
+    width: 100%;
+    height: 45%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.bumwrapper{
+    width: 85%;
+    height: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 20px; */
+    
+    
+}
+.jumlogo{
+    width: 14%;
+    height: 100%;
+    /* background-color: green; */
+}
+.jumlogo img{
+ width: 90%;
+ height: 100%;
+ object-fit: contain;
+
+}
+.inpuAcc{
+    width: 83%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+}
+.inputdiv{
+   width: 57%;
+   height: 55%;
+   background-color: white; 
+   border: 2px solid grey;
+   display: flex;
+   align-items: center;
+   border-radius: 5px;
+
+}
+.upbtn{
+    width: 120px;
+    height: 45%;
+    background-color: #F68B1E;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    margin-left: 9px;
+}
+.inputdiv input{
+    width: 90%;
+    height: 20%;
+   border: none;
+   outline: none;
+   font-size: 15px;
+   /* font-weight: 600; */
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 10px;
+   cursor: pointer;
+}
+
+.Account{
+    width: 32% ;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+.Acc{
+    width: 40%;
+    height: 65%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    gap: 3px;
+    cursor: pointer;
+    /* color: red; */
+
+}
+
+.Account span{
+   font-size: 25px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 500;
+
+}
+.Account :hover{
+    color: orange;
+}
+.Accdrop{
+    /* transition: all 350ms ease-in-out; */
+    width: 70%;
+    height: 30vh;
+    background-color: white;
+    color: white;
+    position: absolute;
+    left: 5;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Accdrop :hover{
+    color: white;
+
+}
+.mercy{
+    width: 100%;
+    height: 70vh;
+    background-color: red;
+}
+.dropbtn1{
+    width: 80%;
+    height: 20%;
+    background-color: #F68B1E;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    border-radius: 8px;
+}
+.dropdownlist{
+    width: 90%;
+    height: 60%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.myacc{
+    width: 100%;
+    height: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+  
+   
+}
+.myacc :hover{
+color: black;
+}
+.dropdownlist :hover{
+    background-color: rgb(220, 213, 213);
+    
+}
+.myacc p{
+   color: #7A7A7B;
+   font-family: "raleway";
+   font-weight: 300;
+   font-size: 20px;
+}
+.Helpdrop{
+    width: 70% ;
+    height: 50vh;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 85%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.helplist{
+    width: 90%;
+    height: 80%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.helplist p{
+    color: #7A7A7B;
+    font-family: "raleway";
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+ 
+}
+.Helpdrop :hover{
+    color:  black;
+}
+.helpbtn{
+    width: 90%;
+    height: 15%;
+    background-color: #F68B1E;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    border-radius: 8px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

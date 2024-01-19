@@ -1,0 +1,36 @@
+.big{
+    width: 50%;
+    height: 50vh;
+    background-color: aqua;
+    display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.firstbtn{
+    width: 15%;
+    height: 15%;
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none; 
+   
+
+}
+
+.changed{
+    width: 20%;
+    height: 15%;
+    background-color: green;
+    border-radius: 30%;
+    margin-left: 20px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+
+.secbtn{
+    cursor: pointer;
+}
+
